@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/app.iml" filepath="$PROJECT_DIR$/.idea/modules/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/example/example.iml" filepath="$PROJECT_DIR$/example/example.iml" />
       <module fileurl="file://$PROJECT_DIR$/flutter_time_picker_spinner.iml" filepath="$PROJECT_DIR$/flutter_time_picker_spinner.iml" />
       <module fileurl="file://$PROJECT_DIR$/time_picker_spinner_example/time_picker_spinner_example.iml" filepath="$PROJECT_DIR$/time_picker_spinner_example/time_picker_spinner_example.iml" />
