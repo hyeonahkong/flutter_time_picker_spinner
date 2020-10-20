@@ -223,11 +223,12 @@ class _TimePickerSpinnerState extends State<TimePickerSpinner> {
       spacer(),
       // 시간과 분사이에 : 문자 삽입
     SizedBox(
-      width: _getItemWidth(),
       height: _getItemHeight() * 5,
       child: Center(
         child: Text(':',
           style: TextStyle(
+            fontFamily: 'Montserrat',
+              fontWeight: FontWeight.w800,
               fontSize: 32,
               color: Colors.black
           ),),
