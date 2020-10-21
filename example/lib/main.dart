@@ -90,6 +90,7 @@ class _MyHomePageState extends State<MyHomePage> {
   Widget hourMinute12H(){
     return new TimePickerSpinner(
       is24HourMode: false,
+      itemHeight: 38,
       onTimeChange: (time) {
         setState(() {
           _dateTime = time;

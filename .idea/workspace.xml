@@ -1,15 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="afd68a02-e80c-4016-adc6-6e4fa9661800" name="Default" comment="">
+    <list default="true" id="afd68a02-e80c-4016-adc6-6e4fa9661800" name="Default" comment="font 및 spacer조절">
       <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_SDK.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" beforeDir="false" afterPath="$PROJECT_DIR$/example/ios/Flutter/flutter_export_environment.sh" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/flutter_time_picker_spinner.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/flutter_time_picker_spinner.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/example/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/example/lib/main.dart" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,6 +118,14 @@
       <option name="presentableId" value="Default" />
       <updated>1548406191825</updated>
     </task>
+    <task id="LOCAL-00001" summary="font 및 spacer조절">
+      <created>1603161217818</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1603161217818</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -138,27 +141,39 @@
       </map>
     </option>
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="font 및 spacer조절" />
+    <option name="LAST_COMMIT_MESSAGE" value="font 및 spacer조절" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="2397" y="252" key="#PSD" timestamp="1603160567503">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2397" y="252" key="#PSD/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603160567503" />
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1603161140128">
+    <state x="2414" y="113" key="CommitChangelistDialog2" timestamp="1603247167995">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603161140128" />
-    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1603161140128">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state x="2414" y="113" key="CommitChangelistDialog2/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603247167995" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom" timestamp="1603175902728">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603161140128" />
-    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1603161140128">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603175902728" />
+    <state width="1877" height="281" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603161744984" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center" timestamp="1603175902728">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603161140128" />
-    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1603161140128">
-      <screen x="1920" y="0" width="1920" height="1040" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603175902728" />
+    <state width="1877" height="281" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603161744984" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left" timestamp="1603175902728">
+      <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603161140128" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603175902728" />
+    <state width="1877" height="281" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603161744984" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right" timestamp="1603175902728">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1603175902728" />
+    <state width="1877" height="281" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1603161744984" />
     <state x="2012" y="92" width="1736" height="856" key="com.android.tools.idea.avdmanager.AvdListDialog" timestamp="1603160578653">
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
