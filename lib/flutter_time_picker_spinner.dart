@@ -168,8 +168,8 @@ class _TimePickerSpinnerState extends State<TimePickerSpinner> {
     int hour = currentSelectedHourIndex - _getHourCount();
     if(!widget.is24HourMode && currentSelectedAPIndex == 2) hour += 12;
     int minute = (currentSelectedMinuteIndex - (isLoop(_getMinuteCount()) ? _getMinuteCount() : 1)) * widget.minutesInterval;
-    // int second = (currentSelectedSecondIndex - (isLoop(_getSecondCount()) ? _getSecondCount() : 1)) * widget.secondsInterval;
-    return DateTime(hour, minute);
+    int second = (currentSelectedSecondIndex - (isLoop(_getSecondCount()) ? _getSecondCount() : 1)) * widget.secondsInterval;
+    return DateTime(currentTime.year, currentTime.month, currentTime.day, hour, minute, second);
   }
 
   @override
