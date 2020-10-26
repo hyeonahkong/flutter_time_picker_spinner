@@ -164,6 +164,8 @@ class _TimePickerSpinnerState extends State<TimePickerSpinner> {
   bool isLoop(int value){
     return value > 10;
   }
+
+  // 처음 시간 조정
   DateTime getDateTime() {
     int hour = currentSelectedHourIndex - _getHourCount();
     if(!widget.is24HourMode && currentSelectedAPIndex == 2) hour += 12;
@@ -183,8 +185,6 @@ class _TimePickerSpinnerState extends State<TimePickerSpinner> {
 
     currentSelectedMinuteIndex = (currentTime.minute / widget.minutesInterval).floor() + (isLoop(_getMinuteCount()) ? _getMinuteCount() : 1);
     minuteController = new ScrollController(initialScrollOffset: (currentSelectedMinuteIndex - 2) * _getItemHeight() );
-    print(currentSelectedMinuteIndex);
-    print((currentSelectedMinuteIndex - 1) * _getItemHeight());
 
     currentSelectedSecondIndex = (currentTime.second / widget.secondsInterval).floor() + (isLoop(_getSecondCount()) ? _getSecondCount() : 1);
     secondController = new ScrollController(initialScrollOffset: (currentSelectedSecondIndex - 1) * _getItemHeight() );
